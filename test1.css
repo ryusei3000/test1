@@ -2,8 +2,9 @@ th, td {
   border-top: 0.5px solid black;
   border-left: 0.5px solid black;
 }
-
-table {
-  border-bottom: 0.5px solid black;
+td:child-last {
   border-right: 0.5px solid black;
+}
+tr:child-last {
+  border-bottom: 0.5px solid black;
 }
